@@ -27,7 +27,7 @@ function parseStats() {
 	const outputItems = [].concat(troopsInfo, spellsInfo, heroesInfo, petsInfo);
 
 	if (!existsSync('./output')) mkdirSync('./output');
-	writeFileSync('./output/troopUpgradeStats.json', formatJson(outputItems, { type: 'space', size: 2 }));
+	writeFileSync('./output/troopStats.json', formatJson(outputItems, { type: 'space', size: 2 }));
 }
 
 function _parseStats(inputItems, type) {
@@ -61,6 +61,72 @@ function _parseStats(inputItems, type) {
 		const upgradeCost = character.UpgradeCost === ''
 			? null
 			: parseInt(character.UpgradeCost);
+
+		
+		// MAX LEVEL
+		const maxLevel = character.TroopLevel === ''
+		? null
+		: parseInt(character.TroopLevel);
+
+		// HOUSING SPACE
+		const housingSpace = character.HousingSpace === ''
+		? null
+		: parseInt(character.HousingSpace);
+
+		// SPEED
+		const speed = character.Speed === ''
+		? null
+		: parseInt(character.Speed);
+
+		// ATTACK SPEED
+		const attackSpeed = character.AttackSpeed === ''
+		? null
+		: parseInt(character.AttackSpeed);
+
+		// RANGE
+		const range = character.AttackRange === ''
+		? null
+		: parseInt(character.AttackRange);
+
+		// TRAINING TIME
+		const trainingTime = character.TrainingTime === ''
+		? null
+		: parseInt(character.TrainingTime);
+
+		// TRAINING COST
+		const trainingCost = character.TrainingCost === ''
+		? null
+		: parseInt(character.TrainingCost);
+
+		// SPECIAL ABILITY
+		// const housingSpace = character.HousingSpace === ''
+		// ? null
+		// : parseInt(character.HousingSpace);
+
+		// DPS
+		const dpsValue = character.DPS === ''
+		? null
+		: parseInt(character.DPS);
+
+		// HITPOINTS
+		const hitpointsValue = character.Hitpoints === ''
+		? null
+		: parseInt(character.Hitpoints);
+
+		// DAMAGE
+		const damage = character.Damage === ''
+		? null
+		: parseInt(character.Damage);
+
+		// RADIUS
+		const radius = character.Radius === ''
+		? null
+		: parseInt(character.Radius);
+
+		// LAB LEVELS
+		const labLevel = character.LaboratoryLevel === ''
+		? null
+		: parseInt(character.LaboratoryLevel);
 
 		// unlock values
 		let unlockValues = {
@@ -148,11 +214,25 @@ function _parseStats(inputItems, type) {
 				category,
 				subCategory,
 				unlock: unlockValues,
+				maxLevel: maxLevel,
 				upgrade: {
 					cost: [upgradeCost],
 					time: [upgradeTime],
 					resource: getResourceName(character.UpgradeResource)
 				},
+				stats: {
+					housingSpace: housingSpace,
+					trainingTime: trainingTime,
+					trainingCost: [trainingCost],
+					speed: speed,
+					attackSpeed: attackSpeed,
+					range: range,
+					dps: [dpsValue],
+					hitpoints: [hitpointsValue],
+					damage: [damage],
+					radius: radius,
+				},
+				labLevels: [labLevel],
 				hallLevels: [hallLevel]
 			});
 		} else {
@@ -161,8 +241,14 @@ function _parseStats(inputItems, type) {
 			const foundItem = outputList.find(itm => itm._name === validCharacter.name && itm.village === validCharacter.village);
 			if (!foundItem) continue;
 
+			if (maxLevel > foundItem.maxLevel) foundItem.maxLevel = maxLevel;
 			if (upgradeCost) foundItem.upgrade.cost.push(upgradeCost);
 			if (upgradeTime) foundItem.upgrade.time.push(upgradeTime);
+			if (trainingCost) foundItem.stats.trainingCost.push(trainingCost);
+			if (dpsValue) foundItem.stats.dps.push(dpsValue);
+			if (hitpointsValue) foundItem.stats.hitpoints.push(hitpointsValue);
+			if (damage) foundItem.stats.damage.push(damage);
+			foundItem.labLevels.push(labLevel);
 			foundItem.hallLevels.push(hallLevel);
 		}
 	}

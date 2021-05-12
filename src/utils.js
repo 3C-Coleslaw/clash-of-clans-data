@@ -11,7 +11,7 @@ function getTextValue(id) {
 function getResourceName(id) {
 	const resource = RAW_RESOURCES.find(field => field.Name === id);
 	return resource
-		? getTextValue(resource.AltTID ?? resource.TID)
+		? getTextValue(resource.TID)
 		: id;
 }
 
