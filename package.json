@@ -3,7 +3,7 @@
   "version": "1.4.1",
   "description": "Data parser and formatter for clash of clans",
   "main": "src/index.js",
-  "repository": "https://github.com/Statscell/clash-of-clans-data",
+  "repository": "https://github.com/3C-Coleslaw/clash-of-clans-data",
   "author": "Santosh Bhandari <contact@santoshb.com.np>",
   "license": "MIT",
   "private": true,
