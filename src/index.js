@@ -19,3 +19,6 @@ async function main() {
 }
 
 main();
+
+
+// Run this code my pressing Ctrl + Alt + N

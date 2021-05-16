@@ -1,0 +1,2528 @@
+[
+  {
+    "name": "Barbarian",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 1,
+      "cost": 100,
+      "time": 10,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 1
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [25000,100000,300000,1000000,2000000,3000000,5000000,9500000,15000000],
+      "time": [21600,43200,86400,129600,216000,345600,604800,1036800,1209600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 20,
+      "trainingCost": [15,30,60,100,150,200,250,300,350,400],
+      "speed": 200,
+      "attackSpeed": 1000,
+      "range": 40,
+      "dps": [8,11,14,18,23,26,30,34,38,42],
+      "hitpoints": [45,54,65,78,95,110,145,205,230,250],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,3,5,6,7,8,9,10,12],
+    "levels": [1,1,2,2,3,3,4,5,6,7,8,9,9,10]
+  },
+  {
+    "name": "Archer",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 2,
+      "cost": 500,
+      "time": 60,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 2
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [40000,160000,480000,1300000,2500000,3500000,5500000,10000000,15500000],
+      "time": [43200,86400,129600,172800,216000,345600,604800,1036800,1209600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 24,
+      "trainingCost": [30,60,120,200,300,400,500,600,700,800],
+      "speed": 300,
+      "attackSpeed": 1000,
+      "range": 350,
+      "dps": [7,9,12,16,20,22,25,28,31,34],
+      "hitpoints": [20,23,28,33,40,44,48,52,56,60],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,3,5,6,7,8,9,10,12],
+    "levels": [0,1,2,2,3,3,4,5,6,7,8,9,9,10]
+  },
+  {
+    "name": "Goblin",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 2,
+      "cost": 5000,
+      "time": 3600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 4
+    },
+    "maxLevel": 8,
+    "upgrade": {
+      "cost": [50000,200000,600000,1200000,2500000,4000000,9500000],
+      "time": [43200,86400,129600,172800,302400,518400,1036800],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 28,
+      "trainingCost": [25,40,60,80,100,150,200,250],
+      "speed": 400,
+      "attackSpeed": 1000,
+      "range": 40,
+      "dps": [11,14,19,24,32,42,52,62],
+      "hitpoints": [25,30,36,46,56,76,101,126],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,3,5,6,7,8,10],
+    "levels": [0,1,2,2,3,3,4,5,6,7,7,8,8,8]
+  },
+  {
+    "name": "Giant",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 2,
+      "cost": 2500,
+      "time": 600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 3
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [50000,200000,600000,1500000,2500000,4000000,6000000,10500000,15000000],
+      "time": [32400,64800,129600,216000,345600,432000,777600,1209600,1296000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 5,
+      "trainingTime": 120,
+      "trainingCost": [150,300,750,1500,2250,3000,3500,4000,4500,5000],
+      "speed": 150,
+      "attackSpeed": 2000,
+      "range": 100,
+      "dps": [11,14,19,24,31,43,50,57,64,72],
+      "hitpoints": [300,360,430,520,720,940,1280,1500,1850,2000],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,2,4,5,6,7,8,9,10,11],
+    "levels": [0,1,1,2,2,3,4,5,6,7,8,9,10,10]
+  },
+  {
+    "name": "Wall Breaker",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 3,
+      "cost": 10000,
+      "time": 14400,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 5
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [100000,250000,750000,1500000,3500000,7500000,11500000,14000000,16000000],
+      "time": [43200,86400,129600,172800,345600,604800,950400,1296000,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 60,
+      "trainingCost": [600,800,1000,1200,1400,1600,1800,2000,2200,2400],
+      "speed": 300,
+      "attackSpeed": 1000,
+      "range": 50,
+      "dps": [6,10,15,20,43,55,66,75,86,94],
+      "hitpoints": [20,24,29,35,53,72,82,92,112,130],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,2,4,5,6,8,9,10,11,12],
+    "levels": [0,0,1,2,2,3,4,5,5,6,7,8,9,10]
+  },
+  {
+    "name": "Balloon",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 4,
+      "cost": 80000,
+      "time": 28800,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 6
+    },
+    "maxLevel": 9,
+    "upgrade": {
+      "cost": [150000,450000,900000,1800000,3500000,7500000,12000000,14000000],
+      "time": [43200,86400,172800,259200,345600,691200,1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 5,
+      "trainingTime": 120,
+      "trainingCost": [1750,2250,2750,3500,4000,4500,5000,5500,6000],
+      "speed": 130,
+      "attackSpeed": 3000,
+      "range": 50,
+      "dps": [25,32,48,72,108,162,198,236,256],
+      "hitpoints": [150,180,216,280,390,545,690,840,940],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,2,4,5,6,7,9,10,11],
+    "levels": [0,0,0,2,2,3,4,5,6,6,7,8,9,9]
+  },
+  {
+    "name": "Wizard",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 5,
+      "cost": 240000,
+      "time": 43200,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 7
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [150000,350000,650000,1300000,2600000,5000000,8000000,10000000,15000000],
+      "time": [43200,86400,129600,172800,345600,518400,777600,1123200,1296000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 4,
+      "trainingTime": 120,
+      "trainingCost": [1000,1400,1800,2200,2600,3000,3400,3800,4200,4600],
+      "speed": 200,
+      "attackSpeed": 1500,
+      "range": 300,
+      "dps": [50,70,90,125,170,185,200,215,230,245],
+      "hitpoints": [75,90,108,130,156,175,190,210,230,250],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,3,4,5,6,7,8,9,10,11],
+    "levels": [0,0,0,0,2,3,4,5,6,7,8,9,10,10]
+  },
+  {
+    "name": "Healer",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 6,
+      "cost": 700000,
+      "time": 57600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 8
+    },
+    "maxLevel": 7,
+    "upgrade": {
+      "cost": [500000,1000000,3000000,9500000,14500000,17000000],
+      "time": [129600,216000,345600,1022400,1296000,1468800],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 14,
+      "trainingTime": 480,
+      "trainingCost": [5000,6000,8000,10000,14000,17000,20000],
+      "speed": 200,
+      "attackSpeed": 700,
+      "range": 500,
+      "dps": [
+        -35,
+        -42,
+        -55,
+        -65,
+        -72,
+        -72,
+        -72
+      ],
+      "hitpoints": [500,600,840,1200,1500,1600,1700],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,5,6,7,9,11,12],
+    "levels": [0,0,0,0,0,1,2,3,4,4,5,5,6,7]
+  },
+  {
+    "name": "Dragon",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 7,
+      "cost": 1000000,
+      "time": 86400,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 9
+    },
+    "maxLevel": 8,
+    "upgrade": {
+      "cost": [1750000,2500000,4000000,6000000,8000000,10000000,15000000],
+      "time": [129600,259200,432000,604800,777600,1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 20,
+      "trainingTime": 720,
+      "trainingCost": [10000,12000,14000,16000,18000,20000,22000,24000],
+      "speed": 200,
+      "attackSpeed": 1250,
+      "range": 300,
+      "dps": [140,160,180,210,240,270,310,330],
+      "hitpoints": [1900,2100,2300,2600,3100,3400,3900,4200],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,5,6,7,8,9,10,11],
+    "levels": [0,0,0,0,0,0,2,3,4,5,6,7,8,8]
+  },
+  {
+    "name": "P.E.K.K.A",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 8,
+      "cost": 1500000,
+      "time": 129600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 10
+    },
+    "maxLevel": 9,
+    "upgrade": {
+      "cost": [1500000,2250000,3200000,4500000,6000000,9000000,12000000,15500000],
+      "time": [172800,302400,388800,518400,604800,864000,1209600,1296000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": 720,
+      "trainingCost": [14000,16000,18000,20000,22500,25000,27500,30000,32500],
+      "speed": 200,
+      "attackSpeed": 1800,
+      "range": 80,
+      "dps": [240,270,310,360,410,470,540,610,680],
+      "hitpoints": [2800,3100,3500,4000,4700,5200,5700,6300,6700],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,6,6,7,8,8,9,10,11],
+    "levels": [0,0,0,0,0,0,0,3,4,6,7,8,9,9]
+  },
+  {
+    "name": "Minion",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 7,
+      "cost": 300000,
+      "time": 14400,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 1
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [3000,7000,15000,25000,40000,90000,150000,250000,300000],
+      "time": [86400,129600,172800,259200,388800,604800,1209600,1339200,1425600],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 36,
+      "trainingCost": [4,5,6,7,8,9,10,11,12,13],
+      "speed": 400,
+      "attackSpeed": 1000,
+      "range": 275,
+      "dps": [35,38,42,46,50,54,58,62,66,70],
+      "hitpoints": [55,60,66,72,78,84,90,96,102,108],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,5,6,6,7,8,9,10,11,12],
+    "levels": [0,0,0,0,0,0,2,4,5,6,7,8,9,10]
+  },
+  {
+    "name": "Hog Rider",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 7,
+      "cost": 600000,
+      "time": 43200,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 2
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [5000,9000,16000,30000,50000,100000,150000,240000,280000],
+      "time": [108000,172800,216000,345600,432000,648000,993600,1209600,1382400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 5,
+      "trainingTime": 90,
+      "trainingCost": [30,34,38,42,48,60,80,100,120,140],
+      "speed": 300,
+      "attackSpeed": 1000,
+      "range": 60,
+      "dps": [60,70,80,92,105,118,135,148,161,174],
+      "hitpoints": [270,312,360,415,480,590,700,810,890,970],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,5,6,6,7,8,9,10,10,11],
+    "levels": [0,0,0,0,0,0,2,4,5,6,7,9,10,10]
+  },
+  {
+    "name": "Valkyrie",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 8,
+      "cost": 900000,
+      "time": 64800,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 3
+    },
+    "maxLevel": 9,
+    "upgrade": {
+      "cost": [8000,12000,25000,45000,90000,175000,260000,310000],
+      "time": [194400,259200,345600,518400,734400,1123200,1382400,1468800],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 8,
+      "trainingTime": 180,
+      "trainingCost": [50,65,80,100,130,160,190,220,250],
+      "speed": 300,
+      "attackSpeed": 1800,
+      "range": 50,
+      "dps": [94,106,119,133,148,163,178,193,208],
+      "hitpoints": [750,800,850,900,1100,1200,1450,1650,1850],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,6,7,7,8,9,10,11,12],
+    "levels": [0,0,0,0,0,0,0,2,4,5,6,7,8,9]
+  },
+  {
+    "name": "Golem",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 8,
+      "cost": 1300000,
+      "time": 86400,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 4
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [10000,20000,30000,50000,75000,110000,160000,200000,270000,320000],
+      "time": [216000,259200,345600,432000,604800,691200,907200,1209600,1382400,1468800],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 30,
+      "trainingTime": 600,
+      "trainingCost": [200,250,300,350,425,500,575,650,725,800],
+      "speed": 150,
+      "attackSpeed": 2400,
+      "range": 100,
+      "dps": [35,40,45,50,55,60,65,70,75,80],
+      "hitpoints": [5100,5400,5700,6000,6300,6600,6900,7200,7500,8000],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,6,7,7,8,9,9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,2,4,5,7,9,10,10]
+  },
+  {
+    "name": "Witch",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 9,
+      "cost": 2000000,
+      "time": 172800,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 5
+    },
+    "maxLevel": 5,
+    "upgrade": {
+      "cost": [50000,80000,130000,200000],
+      "time": [432000,561600,820800,1209600],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 12,
+      "trainingTime": 240,
+      "trainingCost": [125,150,175,225,275],
+      "speed": 150,
+      "attackSpeed": 700,
+      "range": 400,
+      "dps": [100,110,140,160,180],
+      "hitpoints": [300,320,400,440,480],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,7,8,9,10],
+    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,5,5]
+  },
+  {
+    "name": "Lava Hound",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 9,
+      "cost": 2500000,
+      "time": 259200,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 6
+    },
+    "maxLevel": 6,
+    "upgrade": {
+      "cost": [35000,60000,120000,190000,270000],
+      "time": [216000,432000,777600,1209600,1382400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 30,
+      "trainingTime": 600,
+      "trainingCost": [390,450,510,570,630,750],
+      "speed": 250,
+      "attackSpeed": 2000,
+      "range": 75,
+      "dps": [10,12,14,16,18,20],
+      "hitpoints": [6100,6500,6800,7200,7600,8000],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,7,8,9,10,11],
+    "levels": [0,0,0,0,0,0,0,0,2,3,4,5,6,6]
+  },
+  {
+    "name": "Bowler",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 10,
+      "cost": 3000000,
+      "time": 432000,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 7
+    },
+    "maxLevel": 5,
+    "upgrade": {
+      "cost": [75000,125000,200000,280000],
+      "time": [518400,777600,1209600,1382400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 6,
+      "trainingTime": 120,
+      "trainingCost": [70,95,115,140,175],
+      "speed": 175,
+      "attackSpeed": 2200,
+      "range": 300,
+      "dps": [60,70,80,90,96],
+      "hitpoints": [290,310,350,390,430],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,8,9,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,2,3,4,5,5]
+  },
+  {
+    "name": "Baby Dragon",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 9,
+      "cost": 2000000,
+      "time": 216000,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 11
+    },
+    "maxLevel": 8,
+    "upgrade": {
+      "cost": [2500000,3500000,4500000,7000000,9000000,15000000,17000000],
+      "time": [259200,432000,604800,777600,1036800,1339200,1425600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 10,
+      "trainingTime": 360,
+      "trainingCost": [5000,6000,7000,8000,9000,10000,11000,12000],
+      "speed": 250,
+      "attackSpeed": 1000,
+      "range": 275,
+      "dps": [75,85,95,105,115,125,135,145],
+      "hitpoints": [1200,1300,1400,1500,1600,1700,1800,1900],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,7,8,8,9,10,11,12],
+    "levels": [0,0,0,0,0,0,0,0,2,4,5,6,7,8]
+  },
+  {
+    "name": "Miner",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 10,
+      "cost": 3000000,
+      "time": 345600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 12
+    },
+    "maxLevel": 7,
+    "upgrade": {
+      "cost": [3500000,4500000,6000000,8000000,10500000,14000000],
+      "time": [259200,432000,648000,907200,1209600,1339200],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 6,
+      "trainingTime": 120,
+      "trainingCost": [4200,4800,5200,5600,6000,6400,6800],
+      "speed": 400,
+      "attackSpeed": 1700,
+      "range": 60,
+      "dps": [80,88,96,104,112,120,128],
+      "hitpoints": [550,610,670,730,800,900,1000],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,8,8,9,9,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,3,5,6,7,7]
+  },
+  {
+    "name": "Raged Barbarian",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 1,
+      "cost": 1000,
+      "time": 0,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 1
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [3500,6000,9000,50000,100000,300000,330000,700000,900000,1000000,1200000,2000000,2200000,3000000,3200000,3800000,4000000],
+      "time": [0,300,900,10800,21600,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 800,
+      "range": 40,
+      "dps": [50,50,55,55,61,61,67,67,74,74,81,81,89,89,98,98,108,108],
+      "hitpoints": [150,150,165,165,182,182,200,200,220,220,242,242,266,266,293,293,322,322],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [2,4,6,8,10,12,14,16,18]
+  },
+  {
+    "name": "Sneaky Archer",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 2,
+      "cost": 4000,
+      "time": 60,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 2
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [5000,8000,12000,60000,120000,320000,350000,800000,1000000,1100000,1300000,2100000,2300000,3100000,3300000,3900000,4100000],
+      "time": [180,600,1800,14400,21600,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 300,
+      "attackSpeed": 1000,
+      "range": 350,
+      "dps": [36,36,40,40,44,44,48,48,53,53,58,58,64,64,70,70,77,77],
+      "hitpoints": [100,100,110,110,121,121,133,133,146,146,161,161,177,177,195,195,215,215],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,4,6,8,10,12,14,16,18]
+  },
+  {
+    "name": "Beta Minion",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 3,
+      "cost": 25000,
+      "time": 1800,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 4
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [50000,80000,120000,250000,280000,320000,360000,900000,1100000,1300000,1500000,2300000,2500000,3300000,3500000,4000000,4200000],
+      "time": [3600,10800,18000,28800,43200,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 400,
+      "attackSpeed": 1000,
+      "range": 400,
+      "dps": [36,36,40,40,44,44,48,48,53,53,58,58,64,64,70,70,77,77],
+      "hitpoints": [100,100,110,110,121,121,133,133,146,146,161,161,177,177,195,195,215,215],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [2,2,3,3,4,4,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,0,4,8,10,12,14,16,18]
+  },
+  {
+    "name": "Boxer Giant",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 3,
+      "cost": 10000,
+      "time": 600,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 3
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [20000,40000,60000,300000,320000,340000,380000,1000000,1200000,1300000,1500000,2300000,2500000,3300000,3500000,4000000,4200000],
+      "time": [1800,3600,7200,28800,43200,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 8,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 150,
+      "attackSpeed": 2000,
+      "range": 100,
+      "dps": [36,36,40,40,44,44,48,48,53,53,58,58,64,64,70,70,77,85],
+      "hitpoints": [1200,1200,1320,1520,1652,1652,1797,1797,1957,1957,2133,2383,2576,2576,2789,2789,3068,3375],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [2,2,3,3,4,4,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,0,4,8,10,12,14,16,18]
+  },
+  {
+    "name": "Bomber",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 4,
+      "cost": 100000,
+      "time": 10800,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 5
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [150000,200000,250000,280000,320000,340000,360000,900000,1000000,1200000,1400000,2200000,2400000,3200000,3400000,3900000,4100000],
+      "time": [10800,18000,28800,43200,43200,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 4,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 2000,
+      "range": 350,
+      "dps": [36,36,40,40,44,44,48,48,53,53,58,58,64,64,70,70,77,77],
+      "hitpoints": [100,100,110,110,121,121,133,133,146,146,161,161,177,177,195,195,215,215],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [3,3,4,4,4,4,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,0,0,8,10,12,14,16,18]
+  },
+  {
+    "name": "Super P.E.K.K.A",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 8,
+      "cost": 1500000,
+      "time": 86400,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 10
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [1600000,1700000,1800000,1900000,2000000,2200000,2400000,2600000,2800000,3000000,3200000,3400000,3600000,3800000,4000000,4600000,4800000],
+      "time": [86400,86400,172800,172800,259200,259200,345600,345600,345600,345600,345600,345600,345600,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 240,
+      "attackSpeed": 1800,
+      "range": 80,
+      "dps": [305,305,336,336,369,369,406,406,447,447,491,491,540,540,594,594,653,718],
+      "hitpoints": [3135,3135,3449,3449,3794,3794,4173,4173,4590,4590,5049,5049,5554,5554,6109,6109,6720,7392],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9],
+    "levels": [0,0,0,0,0,0,0,16,18]
+  },
+  {
+    "name": "Cannon Cart",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 5,
+      "cost": 300000,
+      "time": 28800,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 7
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [400000,500000,600000,700000,800000,900000,1000000,1100000,1200000,1400000,1600000,2400000,2600000,3400000,3600000,4100000,4300000],
+      "time": [43200,43200,86400,86400,86400,86400,86400,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 8,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 1200,
+      "range": 450,
+      "dps": [85,85,94,94,103,120,130,130,141,141,153,153,167,184,199,216,233,251],
+      "hitpoints": [200,200,220,220,242,242,266,266,293,293,322,322,354,354,389,389,428,471],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [4,4,5,5,5,5,5,5,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,0,0,0,10,12,14,16,18]
+  },
+  {
+    "name": "Drop Ship",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 7,
+      "cost": 1000000,
+      "time": 43200,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 9
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [1100000,1200000,1300000,1400000,1500000,1600000,1700000,1800000,2000000,2200000,2400000,2600000,2800000,3600000,3800000,4300000,4500000],
+      "time": [43200,43200,86400,86400,172800,172800,259200,259200,259200,259200,259200,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 5,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 150,
+      "attackSpeed": 6000,
+      "range": 50,
+      "dps": [10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10],
+      "hitpoints": [1320,1320,1452,1452,1597,1597,1757,1757,1933,1933,2126,2126,2339,2339,2573,2573,2830,3113],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [6,6,7,7,7,7,7,7,7,7,7,7,7,7,8,8,9,9],
+    "levels": [0,0,0,0,0,0,14,16,18]
+  },
+  {
+    "name": "Baby Dragon",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 4,
+      "cost": 150000,
+      "time": 21600,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 6
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [200000,240000,280000,320000,360000,380000,400000,1000000,1200000,1400000,1600000,2400000,2600000,3400000,3600000,4100000,4300000],
+      "time": [18000,28800,43200,43200,43200,43200,43200,86400,86400,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 10,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 250,
+      "attackSpeed": 1000,
+      "range": 250,
+      "dps": [40,40,44,44,48,48,53,53,58,58,64,64,70,70,77,77,85,85],
+      "hitpoints": [645,645,710,710,781,781,859,859,950,950,1045,1045,1150,1150,1265,1265,1392,1392],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [3,3,4,4,4,4,4,4,5,5,6,6,7,7,8,8,9,9],
+    "levels": [0,0,0,8,10,12,14,16,18]
+  },
+  {
+    "name": "Night Witch",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 6,
+      "cost": 500000,
+      "time": 36000,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 8
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [600000,700000,800000,900000,1000000,1100000,1200000,1300000,1400000,1600000,1800000,2500000,2700000,3500000,3700000,4200000,4400000],
+      "time": [43200,43200,86400,86400,172800,172800,172800,172800,172800,172800,172800,259200,259200,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 12,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 150,
+      "attackSpeed": 700,
+      "range": 400,
+      "dps": [90,90,99,99,109,109,120,120,132,132,145,145,160,160,176,176,194,213],
+      "hitpoints": [200,200,220,220,242,242,266,266,293,293,322,322,354,354,389,389,428,471],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [5,5,6,6,6,6,6,6,6,6,6,6,7,7,8,8,9,9],
+    "levels": [0,0,0,0,0,12,14,16,18]
+  },
+  {
+    "name": "Wall Wrecker",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "siege",
+    "unlock": {
+      "hall": 12,
+      "cost": 7500000,
+      "time": 518400,
+      "resource": "Elixir",
+      "building": "Workshop",
+      "buildingLevel": 1
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [6000000,8000000,14000000],
+      "time": [691200,864000,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 1200,
+      "trainingCost": [100000,100000,100000,100000],
+      "speed": 150,
+      "attackSpeed": 1300,
+      "range": 150,
+      "dps": [250,300,350,400],
+      "hitpoints": [5300,5700,6100,6500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
+  },
+  {
+    "name": "Battle Blimp",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "siege",
+    "unlock": {
+      "hall": 12,
+      "cost": 9000000,
+      "time": 691200,
+      "resource": "Elixir",
+      "building": "Workshop",
+      "buildingLevel": 2
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [6000000,8000000,14000000],
+      "time": [691200,864000,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 1200,
+      "trainingCost": [100000,100000,100000,100000],
+      "speed": 225,
+      "attackSpeed": 1500,
+      "range": 200,
+      "dps": [100,140,180,220],
+      "hitpoints": [3000,3500,4000,4500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
+  },
+  {
+    "name": "Yeti",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 12,
+      "cost": 5000000,
+      "time": 777600,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 14
+    },
+    "maxLevel": 3,
+    "upgrade": {
+      "cost": [11000000,15000000],
+      "time": [1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 18,
+      "trainingTime": 720,
+      "trainingCost": [19000,21000,23000],
+      "speed": 150,
+      "attackSpeed": 1000,
+      "range": 80,
+      "dps": [230,250,270],
+      "hitpoints": [2900,3200,3500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3]
+  },
+  {
+    "name": "Ice Golem",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 11,
+      "cost": 4000000,
+      "time": 777600,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 8
+    },
+    "maxLevel": 6,
+    "upgrade": {
+      "cost": [80000,120000,160000,200000,320000],
+      "time": [432000,691200,907200,1209600,1468800],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 15,
+      "trainingTime": 300,
+      "trainingCost": [220,240,260,280,300,320],
+      "speed": 150,
+      "attackSpeed": 2000,
+      "range": 100,
+      "dps": [24,28,32,36,40,44],
+      "hitpoints": [2600,2800,3000,3200,3400,3600],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,9,9,10,10,12],
+    "levels": [0,0,0,0,0,0,0,0,0,0,3,5,5,6]
+  },
+  {
+    "name": "Electro Dragon",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 11,
+      "cost": 4000000,
+      "time": 518400,
+      "resource": "Elixir",
+      "building": "Barracks",
+      "buildingLevel": 13
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [9000000,11000000,16000000],
+      "time": [864000,1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 30,
+      "trainingTime": 1440,
+      "trainingCost": [28000,32000,36000,40000],
+      "speed": 150,
+      "attackSpeed": 3500,
+      "range": 300,
+      "dps": [240,270,300,330],
+      "hitpoints": [3200,3700,4200,4500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,9,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4]
+  },
+  {
+    "name": "Stone Slammer",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "siege",
+    "unlock": {
+      "hall": 12,
+      "cost": 10500000,
+      "time": 864000,
+      "resource": "Elixir",
+      "building": "Workshop",
+      "buildingLevel": 3
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [6000000,8000000,14000000],
+      "time": [691200,864000,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 1200,
+      "trainingCost": [100000,100000,100000,100000],
+      "speed": 200,
+      "attackSpeed": 2500,
+      "range": 50,
+      "dps": [400,500,600,700],
+      "hitpoints": [5600,5900,6200,6500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,3,4,4]
+  },
+  {
+    "name": "Hog Glider",
+    "village": "builderBase",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 9,
+      "cost": 2000000,
+      "time": 129600,
+      "resource": "Elixir",
+      "building": "Builder Barracks",
+      "buildingLevel": 11
+    },
+    "maxLevel": 18,
+    "upgrade": {
+      "cost": [1600000,1700000,1800000,1900000,2000000,2200000,2400000,2600000,2800000,3000000,3200000,3400000,3600000,3800000,4000000,4200000,4400000],
+      "time": [86400,86400,172800,172800,259200,259200,345600,345600,345600,345600,345600,345600,345600,345600,345600,432000,432000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 5,
+      "trainingTime": 60,
+      "trainingCost": [
+        null
+      ],
+      "speed": 300,
+      "attackSpeed": 200,
+      "range": 100,
+      "dps": [700,700,700,700,700,700,700,700,700,900,900,900,900,1100,1100,1100,1100,1100],
+      "hitpoints": [450,450,450,450,450,450,450,450,450,550,550,550,550,650,650,650,650,650],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9],
+    "levels": [0,0,0,0,0,0,0,0,18]
+  },
+  {
+    "name": "Siege Barracks",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "siege",
+    "unlock": {
+      "hall": 13,
+      "cost": 14500000,
+      "time": 1209600,
+      "resource": "Elixir",
+      "building": "Workshop",
+      "buildingLevel": 4
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [8000000,11000000,14000000],
+      "time": [864000,1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 1200,
+      "trainingCost": [100000,100000,100000,100000],
+      "speed": 0,
+      "attackSpeed": 800,
+      "range": 0,
+      "dps": [0],
+      "hitpoints": [3300,3700,4100,4500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4]
+  },
+  {
+    "name": "Headhunter",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "troop",
+    "unlock": {
+      "hall": 12,
+      "cost": 7500000,
+      "time": 1123200,
+      "resource": "Elixir",
+      "building": "Dark Barracks",
+      "buildingLevel": 9
+    },
+    "maxLevel": 3,
+    "upgrade": {
+      "cost": [180000,240000],
+      "time": [1209600,1382400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 6,
+      "trainingTime": 120,
+      "trainingCost": [100,120,140],
+      "speed": 300,
+      "attackSpeed": 600,
+      "range": 300,
+      "dps": [108,120,132],
+      "hitpoints": [360,400,440],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,2,3,3]
+  },
+  {
+    "name": "Log Launcher",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "siege",
+    "unlock": {
+      "hall": 13,
+      "cost": 16000000,
+      "time": 1382400,
+      "resource": "Elixir",
+      "building": "Workshop",
+      "buildingLevel": 5
+    },
+    "maxLevel": 4,
+    "upgrade": {
+      "cost": [8000000,11000000,14000000],
+      "time": [864000,1209600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 1200,
+      "trainingCost": [100000,100000,100000,100000],
+      "speed": 70,
+      "attackSpeed": 3000,
+      "range": 100,
+      "dps": [140,160,180,200],
+      "hitpoints": [4000,4400,4800,5200],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,4,4]
+  },
+  {
+    "name": "Lightning Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 5,
+      "cost": 200000,
+      "time": 28800,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [85000,225000,450000,900000,2000000,4000000,8000000,10000000],
+      "time": [43200,86400,129600,259200,432000,691200,907200,1123200],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [7000,8000,9000,10000,11000,12000,13000,14000,15000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [150,180,210,240,270,320,400,480,560],
+      "radius": 200
+    },
+    "labLevels": [1,1,2,3,6,7,8,9,10],
+    "levels": [0,0,0,0,4,4,4,5,6,7,8,9,9,9]
+  },
+  {
+    "name": "Healing Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 6,
+      "cost": 400000,
+      "time": 86400,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 2
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [75000,300000,600000,1200000,2500000,4500000,14000000],
+      "time": [21600,64800,129600,259200,432000,777600,1382400],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 360,
+      "trainingCost": [15000,16500,18000,19000,21000,23000,25000,27000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [
+        -15,
+        -20,
+        -25,
+        -30,
+        -35,
+        -40,
+        -45,
+        -50
+      ],
+      "radius": 500
+    },
+    "labLevels": [2,2,4,5,6,7,8,11],
+    "levels": [0,0,0,0,0,3,4,5,6,7,7,7,8,8]
+  },
+  {
+    "name": "Rage Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 7,
+      "cost": 800000,
+      "time": 172800,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 3
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [450000,900000,1800000,3000000,11000000],
+      "time": [64800,129600,259200,432000,993600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 360,
+      "trainingCost": [20000,22000,24000,26000,28000,30000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 500
+    },
+    "labLevels": [3,3,4,5,6,10],
+    "levels": [0,0,0,0,0,0,4,5,5,5,5,6,6,6]
+  },
+  {
+    "name": "Jump Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 9,
+      "cost": 1200000,
+      "time": 302400,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 4
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [3000000,6000000,13000000],
+      "time": [345600,604800,1296000],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 2,
+      "trainingTime": 360,
+      "trainingCost": [23000,27000,31000,32000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [4,5,8,11],
+    "levels": [0,0,0,0,0,0,0,0,2,3,3,3,4,4]
+  },
+  {
+    "name": "Freeze Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 9,
+      "cost": 1200000,
+      "time": 302400,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 4
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [1500000,2500000,4200000,6000000,8500000,11000000],
+      "time": [172800,345600,518400,648000,777600,993600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [6000,7000,8000,9000,10000,11000,12000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [7,7,8,8,8,9,10],
+    "levels": [0,0,0,0,0,0,0,0,2,5,6,7,7,7]
+  },
+  {
+    "name": "Poison Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 8,
+      "cost": 250000,
+      "time": 21600,
+      "resource": "Elixir",
+      "building": "Dark Spell Factory",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [20000,40000,75000,150000,200000,260000,300000],
+      "time": [86400,172800,345600,777600,950400,1339200,1512000],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [95,110,125,140,155,170,185,200],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [
+        null
+      ],
+      "radius": 400
+    },
+    "labLevels": [1,6,7,8,9,10,11,12],
+    "levels": [0,0,0,0,0,0,0,2,3,4,5,6,7,8]
+  },
+  {
+    "name": "Earthquake Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 8,
+      "cost": 500000,
+      "time": 64800,
+      "resource": "Elixir",
+      "building": "Dark Spell Factory",
+      "buildingLevel": 2
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [20000,40000,75000,120000],
+      "time": [172800,345600,648000,950400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [125,140,160,180,200],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [1,6,7,8,9],
+    "levels": [0,0,0,0,0,0,0,2,3,4,5,5,5,5]
+  },
+  {
+    "name": "Haste Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 9,
+      "cost": 1000000,
+      "time": 172800,
+      "resource": "Elixir",
+      "building": "Dark Spell Factory",
+      "buildingLevel": 3
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [30000,50000,80000,120000],
+      "time": [216000,432000,691200,950400],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [80,100,120,140,160],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 400
+    },
+    "labLevels": [1,7,8,8,9],
+    "levels": [0,0,0,0,0,0,0,0,2,4,5,5,5,5]
+  },
+  {
+    "name": "Clone Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 10,
+      "cost": 2400000,
+      "time": 432000,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 5
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [3000000,4500000,7000000,9000000,14000000,16500000],
+      "time": [259200,388800,561600,993600,1296000,1425600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 3,
+      "trainingTime": 540,
+      "trainingCost": [28000,29500,31000,32500,34000,35500,37000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [1,8,8,9,9,11,12],
+    "levels": [0,0,0,0,0,0,0,0,0,3,5,5,6,7]
+  },
+  {
+    "name": "Skeleton Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 9,
+      "cost": 2000000,
+      "time": 345600,
+      "resource": "Elixir",
+      "building": "Dark Spell Factory",
+      "buildingLevel": 4
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [25000,40000,70000,125000,150000,250000],
+      "time": [216000,345600,561600,734400,907200,1296000],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [110,120,130,140,150,160,170],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [1,8,8,9,10,10,11],
+    "levels": [0,0,0,0,0,0,0,0,1,3,4,6,7,7]
+  },
+  {
+    "name": "Bat Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 10,
+      "cost": 3000000,
+      "time": 518400,
+      "resource": "Elixir",
+      "building": "Dark Spell Factory",
+      "buildingLevel": 5
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [30000,60000,120000,160000],
+      "time": [259200,475200,648000,777600],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [110,120,130,140,150],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 350
+    },
+    "labLevels": [1,8,8,9,10],
+    "levels": [0,0,0,0,0,0,0,0,0,3,4,5,5,5]
+  },
+  {
+    "name": "Invisibility Spell",
+    "village": "home",
+    "category": "spell",
+    "subCategory": "spell",
+    "unlock": {
+      "hall": 11,
+      "cost": 4800000,
+      "time": 604800,
+      "resource": "Elixir",
+      "building": "Spell Factory",
+      "buildingLevel": 6
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [9000000,12000000,15000000],
+      "time": [777600,993600,1339200],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 1,
+      "trainingTime": 180,
+      "trainingCost": [11000,12000,13000,14000],
+      "speed": null,
+      "attackSpeed": null,
+      "range": null,
+      "dps": [
+        null
+      ],
+      "hitpoints": [
+        null
+      ],
+      "damage": [0],
+      "radius": 400
+    },
+    "labLevels": [1,9,10,11],
+    "levels": [0,0,0,0,0,0,0,0,0,0,2,3,4,4]
+  },
+  {
+    "name": "Barbarian King",
+    "village": "home",
+    "category": "hero",
+    "subCategory": "hero",
+    "unlock": {
+      "hall": 7,
+      "cost": 5000,
+      "time": 0,
+      "resource": "Dark Elixir",
+      "building": "Barbarian King",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [6000,7000,8000,10000,11000,12000,13000,14000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,43000,45000,48000,51000,54000,57000,60000,63000,66000,69000,72000,75000,80000,85000,90000,95000,100000,105000,110000,120000,130000,140000,150000,160000,170000,180000,190000,200000,203000,206000,209000,212000,215000,218000,221000,224000,227000,230000,233000,236000,239000,240000,250000,260000,270000,280000,290000,292000,294000,296000,298000,300000,305000,310000,315000,320000,325000],
+      "time": [14400,21600,28800,36000,43200,50400,57600,64800,72000,79200,86400,115200,144000,172800,172800,172800,172800,172800,259200,259200,259200,259200,259200,302400,302400,302400,302400,302400,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,518400,518400,518400,518400,518400,561600,561600,561600,561600,561600,561600,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": null,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 1200,
+      "range": 100,
+      "dps": [120,122,124,127,129,132,135,137,140,143,146,149,152,155,158,161,164,168,171,174,178,181,185,189,193,196,200,204,208,213,217,221,226,230,235,239,244,249,254,259,275,281,287,293,299,305,312,318,325,332,339,346,353,361,369,377,385,393,401,410,418,426,435,444,453,462,471,480,490,500,510,520,530,540,550,559,568,577,586,595],
+      "hitpoints": [1700,1742,1786,1830,1876,1923,1971,2020,2071,2123,2176,2230,2286,2343,2402,2462,2523,2586,2651,2717,2785,2855,2926,2999,3074,3151,3230,3311,3394,3478,3565,3655,3746,3840,3936,4034,4135,4238,4344,4453,4564,4678,4795,4915,5038,5164,5293,5425,5561,5700,5843,5990,6140,6294,6452,6614,6780,6950,7124,7303,7486,7673,7865,8062,8264,8470,8680,8890,9100,9300,9500,9700,9900,10100,10300,10490,10680,10870,11060,11250],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "levels": [0,0,0,0,0,0,5,10,30,40,50,65,75,80]
+  },
+  {
+    "name": "Archer Queen",
+    "village": "home",
+    "category": "hero",
+    "subCategory": "hero",
+    "unlock": {
+      "hall": 9,
+      "cost": 10000,
+      "time": 0,
+      "resource": "Dark Elixir",
+      "building": "Archer Queen",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [11000,12000,13000,15000,16000,17000,18000,19000,20000,22000,24000,26000,28000,30000,32000,34000,36000,38000,40000,42000,44000,46000,48000,50000,53000,56000,59000,62000,65000,68000,71000,74000,77000,80000,85000,90000,95000,100000,105000,115000,120000,125000,135000,145000,155000,165000,175000,185000,195000,200000,204000,208000,212000,216000,220000,224000,228000,232000,236000,240000,240000,240000,240000,240000,250000,260000,270000,280000,290000,292000,294000,296000,298000,300000,306000,312000,318000,324000,330000],
+      "time": [14400,21600,28800,36000,43200,50400,57600,64800,72000,79200,86400,115200,144000,172800,172800,172800,172800,172800,259200,259200,259200,259200,259200,302400,302400,302400,302400,302400,345600,345600,345600,345600,345600,432000,432000,432000,432000,432000,518400,518400,518400,518400,518400,561600,561600,561600,561600,561600,561600,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": null,
+      "trainingCost": [
+        null
+      ],
+      "speed": 300,
+      "attackSpeed": 750,
+      "range": 500,
+      "dps": [160,164,168,172,176,181,185,190,194,199,204,209,215,220,226,231,237,243,249,255,262,268,275,282,289,296,304,311,319,327,335,344,352,361,370,379,389,398,408,419,429,440,451,462,474,486,498,510,523,536,547,558,570,582,594,606,619,632,645,658,671,684,698,712,726,739,751,762,772,781,789,796,802,808,814,820,825,830,835,840],
+      "hitpoints": [725,740,755,771,787,804,821,838,856,874,892,911,930,949,969,990,1010,1032,1053,1076,1098,1121,1145,1169,1193,1218,1244,1270,1297,1324,1352,1380,1409,1439,1469,1500,1532,1564,1597,1630,1664,1699,1735,1771,1809,1847,1885,1925,1965,2007,2058,2110,2163,2218,2274,2331,2390,2450,2512,2575,2639,2705,2773,2842,2913,2980,3040,3095,3145,3190,3230,3270,3310,3350,3390,3425,3460,3495,3530,3565],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "levels": [0,0,0,0,0,0,0,0,30,40,50,65,75,80]
+  },
+  {
+    "name": "Grand Warden",
+    "village": "home",
+    "category": "hero",
+    "subCategory": "hero",
+    "unlock": {
+      "hall": 11,
+      "cost": 2000000,
+      "time": 0,
+      "resource": "Elixir",
+      "building": "Grand Warden",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [2250000,2500000,2750000,3000000,3300000,3750000,4500000,5250000,6000000,7000000,7500000,8000000,8400000,8800000,9100000,9400000,9600000,9800000,10000000,10000000,10200000,10400000,10600000,10800000,11000000,11200000,11400000,11600000,11800000,12000000,12000000,12000000,12000000,12000000,12000000,12000000,12000000,12000000,12000000,12000000,12500000,13000000,13500000,14000000,14500000,15000000,15500000,16000000,16500000,17000000,17500000,18000000,18500000,19000000],
+      "time": [14400,28800,43200,86400,129600,172800,259200,345600,388800,432000,475200,518400,561600,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,604800,648000,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": null,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 1800,
+      "range": 700,
+      "dps": [50,52,54,56,58,60,63,66,69,72,75,78,82,86,90,94,98,102,106,110,115,120,125,130,136,142,148,154,161,168,175,182,190,198,206,215,224,233,243,253,260,266,271,275,279,283,287,291,295,299,303,307,311,315,319],
+      "hitpoints": [1000,1021,1042,1064,1086,1108,1131,1155,1180,1206,1233,1261,1290,1320,1350,1380,1410,1440,1470,1500,1530,1561,1593,1625,1658,1692,1726,1761,1797,1833,1870,1908,1947,1986,2026,2067,2109,2152,2196,2240,2260,2280,2300,2320,2340,2360,2380,2400,2420,2440,2460,2480,2500,2520,2540],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "levels": [0,0,0,0,0,0,0,0,0,0,20,40,50,55]
+  },
+  {
+    "name": "Battle Machine",
+    "village": "builderBase",
+    "category": "hero",
+    "subCategory": "hero",
+    "unlock": {
+      "hall": 5,
+      "cost": 900000,
+      "time": 43200,
+      "resource": "Elixir",
+      "building": "Battle Machine",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [1000000,1100000,1200000,1300000,1500000,1600000,1700000,1800000,1900000,2100000,2200000,2300000,2400000,2500000,2600000,2700000,2800000,2900000,3000000,3100000,3200000,3300000,3400000,3500000,3600000,3700000,3800000,3900000,4000000,4000000],
+      "time": [43200,43200,86400,86400,86400,86400,86400,86400,86400,172800,172800,172800,172800,172800,259200,259200,259200,259200,259200,259200,259200,259200,259200,259200,345600,345600,345600,345600,345600,345600],
+      "resource": "Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": null,
+      "trainingCost": [
+        null
+      ],
+      "speed": 200,
+      "attackSpeed": 1200,
+      "range": 125,
+      "dps": [125,127,130,132,135,137,140,142,145,147,150,154,157,160,164,167,170,174,177,180,186,192,198,204,210,218,226,234,242,250],
+      "hitpoints": [3600,3672,3745,3820,3896,3954,4013,4073,4134,4196,4238,4280,4323,4366,4410,4454,4499,4544,4589,4635,4681,4728,4775,4823,4871,4920,4970,5020,5071,5122],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "levels": [0,0,0,0,5,10,20,25,30]
+  },
+  {
+    "name": "Royal Champion",
+    "village": "home",
+    "category": "hero",
+    "subCategory": "hero",
+    "unlock": {
+      "hall": 13,
+      "cost": 120000,
+      "time": 0,
+      "resource": "Dark Elixir",
+      "building": "Royal Champion",
+      "buildingLevel": 1
+    },
+    "maxLevel": null,
+    "upgrade": {
+      "cost": [130000,140000,150000,160000,170000,180000,190000,200000,210000,220000,230000,235000,240000,245000,250000,255000,260000,265000,270000,275000,280000,285000,290000,295000,300000,305000,310000,315000,320000],
+      "time": [86400,129600,172800,216000,259200,302400,345600,388800,432000,475200,518400,561600,604800,604800,648000,648000,648000,648000,648000,691200,691200,691200,691200,691200,691200,691200,691200,691200,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 25,
+      "trainingTime": null,
+      "trainingCost": [
+        null
+      ],
+      "speed": 300,
+      "attackSpeed": 1200,
+      "range": 300,
+      "dps": [374,383,392,401,410,418,426,434,442,450,458,466,474,482,490,498,506,514,522,530,535,540,545,550,555,560,565,570,575,580],
+      "hitpoints": [2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3940,3980,4020,4060,4100,4140,4180,4220,4260,4300],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,25,30]
+  },
+  {
+    "name": "L.A.S.S.I",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "pet",
+    "unlock": {
+      "hall": 14,
+      "cost": 15000000,
+      "time": 1123200,
+      "resource": "Elixir",
+      "building": "Pet House",
+      "buildingLevel": 1
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [115000,130000,145000,160000,175000,190000,205000,220000,235000],
+      "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 20,
+      "trainingTime": 999,
+      "trainingCost": [1,2,3,4,5,6,7,8,9,10],
+      "speed": 400,
+      "attackSpeed": 900,
+      "range": 60,
+      "dps": [150,160,170,180,190,200,210,220,230,240],
+      "hitpoints": [2700,2800,2900,3000,3100,3200,3300,3400,3500,3600],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [1,1,1,1,1,1,1,1,1,1],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+  },
+  {
+    "name": "Mighty Yak",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "pet",
+    "unlock": {
+      "hall": 14,
+      "cost": 18500000,
+      "time": 1468800,
+      "resource": "Elixir",
+      "building": "Pet House",
+      "buildingLevel": 3
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [165000,185000,205000,225000,245000,255000,265000,275000,285000],
+      "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 20,
+      "trainingTime": 999,
+      "trainingCost": [1,2,3,4,5,6,7,8,9,10],
+      "speed": 300,
+      "attackSpeed": 2100,
+      "range": 120,
+      "dps": [60,64,68,72,76,80,84,88,92,96],
+      "hitpoints": [3750,4000,4250,4500,4750,4950,5100,5250,5400,5550],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [3,3,3,3,3,3,3,3,3,3],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+  },
+  {
+    "name": "Electro Owl",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "pet",
+    "unlock": {
+      "hall": 14,
+      "cost": 17500000,
+      "time": 1296000,
+      "resource": "Elixir",
+      "building": "Pet House",
+      "buildingLevel": 2
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [135000,150000,165000,180000,195000,210000,225000,240000,255000],
+      "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 20,
+      "trainingTime": 9999,
+      "trainingCost": [1,2,3,4,5,6,7,8,9,10],
+      "speed": 250,
+      "attackSpeed": 1400,
+      "range": 600,
+      "dps": [100,105,110,115,120,125,130,135,140,145],
+      "hitpoints": [1600,1700,1800,1900,2000,2100,2200,2300,2400,2500],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [2,2,2,2,2,2,2,2,2,2],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+  },
+  {
+    "name": "Unicorn",
+    "village": "home",
+    "category": "troop",
+    "subCategory": "pet",
+    "unlock": {
+      "hall": 14,
+      "cost": 19500000,
+      "time": 1641600,
+      "resource": "Elixir",
+      "building": "Pet House",
+      "buildingLevel": 4
+    },
+    "maxLevel": 10,
+    "upgrade": {
+      "cost": [210000,220000,230000,240000,250000,260000,270000,280000,290000],
+      "time": [259200,345600,432000,475200,518400,561600,604800,648000,691200],
+      "resource": "Dark Elixir"
+    },
+    "stats": {
+      "housingSpace": 20,
+      "trainingTime": 999,
+      "trainingCost": [1,2,3,4,5,6,7,8,9,10],
+      "speed": 200,
+      "attackSpeed": 1000,
+      "range": 250,
+      "dps": [
+        -50,
+        -53,
+        -56,
+        -59,
+        -62,
+        -65,
+        -68,
+        -71,
+        -74,
+        -77
+      ],
+      "hitpoints": [1400,1450,1500,1550,1600,1675,1725,1800,1875,1950],
+      "damage": [
+        null
+      ],
+      "radius": null
+    },
+    "labLevels": [4,4,4,4,4,4,4,4,4,4],
+    "levels": [0,0,0,0,0,0,0,0,0,0,0,0,0,10]
+  }
+]
