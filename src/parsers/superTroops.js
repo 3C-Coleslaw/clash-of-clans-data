@@ -15,8 +15,14 @@ function parseSuperTroops() {
 		const superTID = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement)?.TID;
 		const troopOriginal = RAW_CHARACTERS.find(raw => raw.Name === troop.Original);
 
+		// NAME
+		var nameKey1 = getTextValue(superTID);
+		var nameKey2 = nameKey1.toLowerCase();
+		const nameKey = nameKey2.replace(/ /g, "-");
+
 		output.push({
 			name: getTextValue(superTID),
+			nameKey: nameKey,
 			original: getTextValue(troopOriginal.TID),
 			minOriginalLevel: troop.MinOriginalLevel + 1,
 			village: troop.VillageType === 1

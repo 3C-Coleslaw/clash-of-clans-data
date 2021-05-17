@@ -1,6 +1,7 @@
 [
   {
     "name": "Super Barbarian",
+    "nameKey": "super-barbarian",
     "original": "Barbarian",
     "minOriginalLevel": 8,
     "village": "home",
@@ -11,6 +12,7 @@
   },
   {
     "name": "Sneaky Goblin",
+    "nameKey": "sneaky-goblin",
     "original": "Goblin",
     "minOriginalLevel": 7,
     "village": "home",
@@ -21,6 +23,7 @@
   },
   {
     "name": "Super Giant",
+    "nameKey": "super-giant",
     "original": "Giant",
     "minOriginalLevel": 9,
     "village": "home",
@@ -31,6 +34,7 @@
   },
   {
     "name": "Super Wall Breaker",
+    "nameKey": "super-wall-breaker",
     "original": "Wall Breaker",
     "minOriginalLevel": 7,
     "village": "home",
@@ -41,6 +45,7 @@
   },
   {
     "name": "Super Archer",
+    "nameKey": "super-archer",
     "original": "Archer",
     "minOriginalLevel": 8,
     "village": "home",
@@ -51,6 +56,7 @@
   },
   {
     "name": "Super Witch",
+    "nameKey": "super-witch",
     "original": "Witch",
     "minOriginalLevel": 5,
     "village": "home",
@@ -61,6 +67,7 @@
   },
   {
     "name": "Inferno Dragon",
+    "nameKey": "inferno-dragon",
     "original": "Baby Dragon",
     "minOriginalLevel": 6,
     "village": "home",
@@ -71,6 +78,7 @@
   },
   {
     "name": "Super Valkyrie",
+    "nameKey": "super-valkyrie",
     "original": "Valkyrie",
     "minOriginalLevel": 7,
     "village": "home",
@@ -81,6 +89,7 @@
   },
   {
     "name": "Super Minion",
+    "nameKey": "super-minion",
     "original": "Minion",
     "minOriginalLevel": 8,
     "village": "home",
@@ -91,6 +100,7 @@
   },
   {
     "name": "Super Wizard",
+    "nameKey": "super-wizard",
     "original": "Wizard",
     "minOriginalLevel": 9,
     "village": "home",
@@ -101,6 +111,7 @@
   },
   {
     "name": "Ice Hound",
+    "nameKey": "ice-hound",
     "original": "Lava Hound",
     "minOriginalLevel": 5,
     "village": "home",
