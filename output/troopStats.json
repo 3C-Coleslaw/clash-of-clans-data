@@ -1,6 +1,7 @@
 [
   {
     "name": "Barbarian",
+    "nameKey": "barbarian",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -37,6 +38,7 @@
   },
   {
     "name": "Archer",
+    "nameKey": "archer",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -73,6 +75,7 @@
   },
   {
     "name": "Goblin",
+    "nameKey": "goblin",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -109,6 +112,7 @@
   },
   {
     "name": "Giant",
+    "nameKey": "giant",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -145,6 +149,7 @@
   },
   {
     "name": "Wall Breaker",
+    "nameKey": "wall-breaker",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -181,6 +186,7 @@
   },
   {
     "name": "Balloon",
+    "nameKey": "balloon",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -217,6 +223,7 @@
   },
   {
     "name": "Wizard",
+    "nameKey": "wizard",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -253,6 +260,7 @@
   },
   {
     "name": "Healer",
+    "nameKey": "healer",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -297,6 +305,7 @@
   },
   {
     "name": "Dragon",
+    "nameKey": "dragon",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -333,6 +342,7 @@
   },
   {
     "name": "P.E.K.K.A",
+    "nameKey": "pekka",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -369,6 +379,7 @@
   },
   {
     "name": "Minion",
+    "nameKey": "gargoyle",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -405,6 +416,7 @@
   },
   {
     "name": "Hog Rider",
+    "nameKey": "boar-rider",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -441,6 +453,7 @@
   },
   {
     "name": "Valkyrie",
+    "nameKey": "warrior-girl",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -477,6 +490,7 @@
   },
   {
     "name": "Golem",
+    "nameKey": "golem",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -513,6 +527,7 @@
   },
   {
     "name": "Witch",
+    "nameKey": "warlock",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -549,6 +564,7 @@
   },
   {
     "name": "Lava Hound",
+    "nameKey": "airdefenceseeker",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -585,6 +601,7 @@
   },
   {
     "name": "Bowler",
+    "nameKey": "bowler",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -621,6 +638,7 @@
   },
   {
     "name": "Baby Dragon",
+    "nameKey": "babydragon",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -657,6 +675,7 @@
   },
   {
     "name": "Miner",
+    "nameKey": "miner",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -693,6 +712,7 @@
   },
   {
     "name": "Raged Barbarian",
+    "nameKey": "barbarian2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -731,6 +751,7 @@
   },
   {
     "name": "Sneaky Archer",
+    "nameKey": "archer2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -769,6 +790,7 @@
   },
   {
     "name": "Beta Minion",
+    "nameKey": "gargoyle2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -807,6 +829,7 @@
   },
   {
     "name": "Boxer Giant",
+    "nameKey": "giant2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -845,6 +868,7 @@
   },
   {
     "name": "Bomber",
+    "nameKey": "bomber2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -883,6 +907,7 @@
   },
   {
     "name": "Super P.E.K.K.A",
+    "nameKey": "pekka2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -921,6 +946,7 @@
   },
   {
     "name": "Cannon Cart",
+    "nameKey": "moving-cannon",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -959,6 +985,7 @@
   },
   {
     "name": "Drop Ship",
+    "nameKey": "balloon2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -997,6 +1024,7 @@
   },
   {
     "name": "Baby Dragon",
+    "nameKey": "babydragon2",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1035,6 +1063,7 @@
   },
   {
     "name": "Night Witch",
+    "nameKey": "dark-witch",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1073,6 +1102,7 @@
   },
   {
     "name": "Wall Wrecker",
+    "nameKey": "siege-machine-ram",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1109,6 +1139,7 @@
   },
   {
     "name": "Battle Blimp",
+    "nameKey": "siege-machine-flyer",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1145,6 +1176,7 @@
   },
   {
     "name": "Yeti",
+    "nameKey": "yeti",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1181,6 +1213,7 @@
   },
   {
     "name": "Ice Golem",
+    "nameKey": "ice-golem",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1217,6 +1250,7 @@
   },
   {
     "name": "Electro Dragon",
+    "nameKey": "electro-dragon",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1253,6 +1287,7 @@
   },
   {
     "name": "Stone Slammer",
+    "nameKey": "siege-bowler-balloon",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1289,6 +1324,7 @@
   },
   {
     "name": "Hog Glider",
+    "nameKey": "hog-glider",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1327,6 +1363,7 @@
   },
   {
     "name": "Siege Barracks",
+    "nameKey": "siege-machine-carrier",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1363,6 +1400,7 @@
   },
   {
     "name": "Headhunter",
+    "nameKey": "headhunter",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1399,6 +1437,7 @@
   },
   {
     "name": "Log Launcher",
+    "nameKey": "siege-log-launcher",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1435,6 +1474,7 @@
   },
   {
     "name": "Lightning Spell",
+    "nameKey": "lighningstorm",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1473,6 +1513,7 @@
   },
   {
     "name": "Healing Spell",
+    "nameKey": "healingwave",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1520,6 +1561,7 @@
   },
   {
     "name": "Rage Spell",
+    "nameKey": "haste",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1558,6 +1600,7 @@
   },
   {
     "name": "Jump Spell",
+    "nameKey": "jump",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1596,6 +1639,7 @@
   },
   {
     "name": "Freeze Spell",
+    "nameKey": "freeze",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1634,6 +1678,7 @@
   },
   {
     "name": "Poison Spell",
+    "nameKey": "poison",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1674,6 +1719,7 @@
   },
   {
     "name": "Earthquake Spell",
+    "nameKey": "earthquake",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1712,6 +1758,7 @@
   },
   {
     "name": "Haste Spell",
+    "nameKey": "speedup",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1750,6 +1797,7 @@
   },
   {
     "name": "Clone Spell",
+    "nameKey": "duplicate",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1788,6 +1836,7 @@
   },
   {
     "name": "Skeleton Spell",
+    "nameKey": "spawnskele",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1826,6 +1875,7 @@
   },
   {
     "name": "Bat Spell",
+    "nameKey": "spawnbats",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1864,6 +1914,7 @@
   },
   {
     "name": "Invisibility Spell",
+    "nameKey": "invisibility",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1902,6 +1953,7 @@
   },
   {
     "name": "Barbarian King",
+    "nameKey": "barbarian-king",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2021,6 +2073,7 @@
   },
   {
     "name": "Archer Queen",
+    "nameKey": "archer-queen",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2140,6 +2193,7 @@
   },
   {
     "name": "Grand Warden",
+    "nameKey": "grand-warden",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2234,6 +2288,7 @@
   },
   {
     "name": "Battle Machine",
+    "nameKey": "warmachine",
     "village": "builderBase",
     "category": "hero",
     "subCategory": "hero",
@@ -2303,6 +2358,7 @@
   },
   {
     "name": "Royal Champion",
+    "nameKey": "warrior-princess",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2372,6 +2428,7 @@
   },
   {
     "name": "L.A.S.S.I",
+    "nameKey": "barky",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2408,6 +2465,7 @@
   },
   {
     "name": "Mighty Yak",
+    "nameKey": "bulldozer",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2444,6 +2502,7 @@
   },
   {
     "name": "Electro Owl",
+    "nameKey": "electrowl",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2480,6 +2539,7 @@
   },
   {
     "name": "Unicorn",
+    "nameKey": "unipony",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",

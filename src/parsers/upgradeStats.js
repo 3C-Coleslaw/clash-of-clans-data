@@ -62,7 +62,10 @@ function _parseStats(inputItems, type) {
 			? null
 			: parseInt(character.UpgradeCost);
 
-		
+		// NAME
+		var nameKey1 = character.Name.toLowerCase();
+		const nameKey = nameKey1.replace(/ /g, "-");
+
 		// MAX LEVEL
 		const maxLevel = character.TroopLevel === ''
 		? null
@@ -210,6 +213,7 @@ function _parseStats(inputItems, type) {
 			outputList.push({
 				_name: character.Name,
 				name: getTextValue(character.TID),
+				nameKey: nameKey,
 				village,
 				category,
 				subCategory,
