@@ -6,6 +6,7 @@ const RAW_SPELLS = require('../../raw/spells.json');
 const RAW_HEROES = require('../../raw/heroes.json');
 const RAW_PETS = require('../../raw/pets.json');
 const RAW_BUILDINGS = require('../../raw/buildings.json');
+const RAW_TEXTS = require('../../raw/texts.json');
 
 const { getResourceName, getTextValue } = require('../utils');
 
@@ -63,8 +64,9 @@ function _parseStats(inputItems, type) {
 			: parseInt(character.UpgradeCost);
 
 		// NAME
-		var nameKey1 = character.Name.toLowerCase();
-		const nameKey = nameKey1.replace(/ /g, "-");
+		var nameKey1 = getTextValue(character.TID);
+		var nameKey2 = nameKey1.toLowerCase();
+		const nameKey = nameKey2.replace(/ /g, "-");
 
 		// MAX LEVEL
 		const maxLevel = character.TroopLevel === ''
@@ -214,6 +216,7 @@ function _parseStats(inputItems, type) {
 				_name: character.Name,
 				name: getTextValue(character.TID),
 				nameKey: nameKey,
+				description: getTextValue(character.InfoTID),
 				village,
 				category,
 				subCategory,

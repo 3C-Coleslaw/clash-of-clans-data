@@ -2,6 +2,7 @@
   {
     "name": "Super Barbarian",
     "nameKey": "super-barbarian",
+    "description": "Superior in health, power, speed and most importantly, hair, the Super Barbarians are what regular Barbarians dream of becoming!",
     "original": "Barbarian",
     "minOriginalLevel": 8,
     "village": "home",
@@ -13,6 +14,7 @@
   {
     "name": "Sneaky Goblin",
     "nameKey": "sneaky-goblin",
+    "description": "Sneaky Goblins have a talent going unnoticed for a while after being deployed. It's usually the incredibly loud sound of resources being pilfered that gives them away.",
     "original": "Goblin",
     "minOriginalLevel": 7,
     "village": "home",
@@ -24,6 +26,7 @@
   {
     "name": "Super Giant",
     "nameKey": "super-giant",
+    "description": "Super Giants are bigger than their ordinary cousins and are great at punching their way through walls. The belt is from the annual village eating contest.",
     "original": "Giant",
     "minOriginalLevel": 9,
     "village": "home",
@@ -35,6 +38,7 @@
   {
     "name": "Super Wall Breaker",
     "nameKey": "super-wall-breaker",
+    "description": "Who knew that rolling was so much superior to running? Super Wall Breakers use pre-ignited bombs that blow up under all circumstances! No more duds!",
     "original": "Wall Breaker",
     "minOriginalLevel": 7,
     "village": "home",
@@ -46,6 +50,7 @@
   {
     "name": "Super Archer",
     "nameKey": "super-archer",
+    "description": "Having achieved serious arm strength, the Super Archer can now threaten targets several buildings away.",
     "original": "Archer",
     "minOriginalLevel": 8,
     "village": "home",
@@ -57,6 +62,7 @@
   {
     "name": "Super Witch",
     "nameKey": "super-witch",
+    "description": "Focused magic creates focused results. Instead of summoning hordes of tiny skeletons, Super Witch summons just one really big skeleton with very formidable bone density.",
     "original": "Witch",
     "minOriginalLevel": 5,
     "village": "home",
@@ -68,6 +74,7 @@
   {
     "name": "Inferno Dragon",
     "nameKey": "inferno-dragon",
+    "description": "Not getting upset over being alone anymore, the Inferno Dragon has learned to focus its rage into a very powerful beam that builds up over time!",
     "original": "Baby Dragon",
     "minOriginalLevel": 6,
     "village": "home",
@@ -79,6 +86,7 @@
   {
     "name": "Super Valkyrie",
     "nameKey": "super-valkyrie",
+    "description": "Not only are Super Valkyries superior to regular Valkyries in every way, they're also way more angry!",
     "original": "Valkyrie",
     "minOriginalLevel": 7,
     "village": "home",
@@ -90,6 +98,7 @@
   {
     "name": "Super Minion",
     "nameKey": "super-minion",
+    "description": "Super Minion's big forehead isn't just for show: sniping enemy defenses from a safe distance is simply a brainy move! Especially when you've grown too big to avoid Seeking Air Mines.",
     "original": "Minion",
     "minOriginalLevel": 8,
     "village": "home",
@@ -101,6 +110,7 @@
   {
     "name": "Super Wizard",
     "nameKey": "super-wizard",
+    "description": "Super Wizard is positively charged with magical energy! He's either the smartest person in the room... or else he blows the whole room to bits.",
     "original": "Wizard",
     "minOriginalLevel": 9,
     "village": "home",
@@ -112,6 +122,7 @@
   {
     "name": "Ice Hound",
     "nameKey": "ice-hound",
+    "description": "Free from all that lava-induced indigestion, the Ice Hound is ready to freeze the flow of battle. Chill out, or else.",
     "original": "Lava Hound",
     "minOriginalLevel": 5,
     "village": "home",

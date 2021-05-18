@@ -12,7 +12,8 @@ function parseSuperTroops() {
 
 	for (const troop of RAW_SUPER_TROOPS) {
 		if (troop.Name.toLowerCase() === 'string') continue;
-		const superTID = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement)?.TID;
+		const superTID = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement).TID;
+		const superInfoTID = RAW_CHARACTERS.find(raw => raw.Name === troop.Replacement).InfoTID;
 		const troopOriginal = RAW_CHARACTERS.find(raw => raw.Name === troop.Original);
 
 		// NAME
@@ -23,6 +24,7 @@ function parseSuperTroops() {
 		output.push({
 			name: getTextValue(superTID),
 			nameKey: nameKey,
+			description: getTextValue(superInfoTID),
 			original: getTextValue(troopOriginal.TID),
 			minOriginalLevel: troop.MinOriginalLevel + 1,
 			village: troop.VillageType === 1

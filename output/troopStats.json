@@ -2,6 +2,7 @@
   {
     "name": "Barbarian",
     "nameKey": "barbarian",
+    "description": "This fearless warrior relies on his bulging muscles and striking mustache to wreak havoc in enemy villages. Release a horde of Barbarians and enjoy the mayhem!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -39,6 +40,7 @@
   {
     "name": "Archer",
     "nameKey": "archer",
+    "description": "These sharpshooters like to keep their distance on the battlefield and in life. Nothing makes them happier than single-mindedly taking down their target.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -76,6 +78,7 @@
   {
     "name": "Goblin",
     "nameKey": "goblin",
+    "description": "These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -113,6 +116,7 @@
   {
     "name": "Giant",
     "nameKey": "giant",
+    "description": "These big guys may seem calm, but show them a turret or cannon and you´ll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -150,6 +154,7 @@
   {
     "name": "Wall Breaker",
     "nameKey": "wall-breaker",
+    "description": "Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. A squad of them will make way for your ground units, and they will do it with a BANG!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -187,6 +192,7 @@
   {
     "name": "Balloon",
     "nameKey": "balloon",
+    "description": "These promoted skeletons have traded in their joy of destroying walls for a joy of destroying defenses. Deploy them to take out pesky mortars and cannons!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -224,6 +230,7 @@
   {
     "name": "Wizard",
     "nameKey": "wizard",
+    "description": "The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -261,6 +268,7 @@
   {
     "name": "Healer",
     "nameKey": "healer",
+    "description": "This majestic creature lives to protect and aid her fellow troops. Any army is improved with her healing support, but make sure to protect her from air defenses!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -306,6 +314,7 @@
   {
     "name": "Dragon",
     "nameKey": "dragon",
+    "description": "The might of the dragons is known throughout the land. This scaly terror of the skies feels no mercy and nothing will escape the fiery splashes of his breath.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -342,7 +351,8 @@
   },
   {
     "name": "P.E.K.K.A",
-    "nameKey": "pekka",
+    "nameKey": "p.e.k.k.a",
+    "description": "Is P.E.K.K.A a knight? A samurai? A robot? No one knows! P.E.K.K.A´s armor absorbs even the mightiest of blows.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -379,7 +389,8 @@
   },
   {
     "name": "Minion",
-    "nameKey": "gargoyle",
+    "nameKey": "minion",
+    "description": "This terror of the skies was born out of Dark Elixir. Undetectable by the Seeking Air Mine, Minions materialize with ease, but are fragile in our world.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -416,7 +427,8 @@
   },
   {
     "name": "Hog Rider",
-    "nameKey": "boar-rider",
+    "nameKey": "hog-rider",
+    "description": "Having tamed the fierce leaping hog, the Hog Rider punishes those who hide behind their puny walls! Fueled by Dark Elixir, these warriors have never known defeat!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -453,7 +465,8 @@
   },
   {
     "name": "Valkyrie",
-    "nameKey": "warrior-girl",
+    "nameKey": "valkyrie",
+    "description": "A master of the two-handed axe, this glorious warrior runs between nearby buildings and can shred several troops or buildings at once with her whirlwind blow!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -491,6 +504,7 @@
   {
     "name": "Golem",
     "nameKey": "golem",
+    "description": "The mighty Golem loves to soak up damage! When destroyed, it explodes and splits into Golemites. The resulting Golemites have one-fifth the Golem's strength and hitpoints.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -527,7 +541,8 @@
   },
   {
     "name": "Witch",
-    "nameKey": "warlock",
+    "nameKey": "witch",
+    "description": "The Witch never fights alone, constantly raising dead warriors from past battles to lead her attacks. Upgraded Witches raise more skeletons at a time.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -564,7 +579,8 @@
   },
   {
     "name": "Lava Hound",
-    "nameKey": "airdefenceseeker",
+    "nameKey": "lava-hound",
+    "description": "These fiery beasts can't resist chasing after Air Defenses, providing excellent protection for other troops. Once destroyed, they erupt into many smaller, weaker menaces.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -602,6 +618,7 @@
   {
     "name": "Bowler",
     "nameKey": "bowler",
+    "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off of their target and hit again behind it for a double strike!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -638,7 +655,8 @@
   },
   {
     "name": "Baby Dragon",
-    "nameKey": "babydragon",
+    "nameKey": "baby-dragon",
+    "description": "This fire-breathing hatchling is shy around other air units, but leave it alone and it'll throw a fit! When not around other air units, Baby Dragons become enraged and gain bonus damage and attack speed.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -676,6 +694,7 @@
   {
     "name": "Miner",
     "nameKey": "miner",
+    "description": "These sneaky shovelers burrow underground, pass beneath walls and pop up right next to their targets. While underground, Miners cannot be damaged and will not trigger traps, but still gain bonuses from Spells.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -712,7 +731,8 @@
   },
   {
     "name": "Raged Barbarian",
-    "nameKey": "barbarian2",
+    "nameKey": "raged-barbarian",
+    "description": "Why is he so angry, speedy and vicious? Nobody's brave enough to ask. Maybe it's because he can't find his sword?",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -751,7 +771,8 @@
   },
   {
     "name": "Sneaky Archer",
-    "nameKey": "archer2",
+    "nameKey": "sneaky-archer",
+    "description": "Cloaked under cover of moonlight, Archers can take out targets before ever being seen. Their weakness? Overconfidence.",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -790,7 +811,8 @@
   },
   {
     "name": "Beta Minion",
-    "nameKey": "gargoyle2",
+    "nameKey": "beta-minion",
+    "description": "Attacks targets from a distance, glows in the dark, and is a maniac on the dance floor.",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -829,7 +851,8 @@
   },
   {
     "name": "Boxer Giant",
-    "nameKey": "giant2",
+    "nameKey": "boxer-giant",
+    "description": "Heavy-handed and built like an ox, these Giants have been practicing their haymaker punch!",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -868,7 +891,8 @@
   },
   {
     "name": "Bomber",
-    "nameKey": "bomber2",
+    "nameKey": "bomber",
+    "description": "With an appetite for destruction and high quality special effects, Bombers blow up anything in sight with bonus damage to Walls!",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -907,7 +931,8 @@
   },
   {
     "name": "Super P.E.K.K.A",
-    "nameKey": "pekka2",
+    "nameKey": "super-p.e.k.k.a",
+    "description": "Unstable energy radiates from this powerful suit of dark armor, waiting to be unleashed!",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -946,7 +971,8 @@
   },
   {
     "name": "Cannon Cart",
-    "nameKey": "moving-cannon",
+    "nameKey": "cannon-cart",
+    "description": "A cannon on wheels?! Bet they won't see that coming! Tons of firepower, but not that sturdy!",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -985,7 +1011,8 @@
   },
   {
     "name": "Drop Ship",
-    "nameKey": "balloon2",
+    "nameKey": "drop-ship",
+    "description": "Packed to the brim with bones instead of bombs, Skeletons leap out of these balloons directly next to the enemy!",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1024,7 +1051,8 @@
   },
   {
     "name": "Baby Dragon",
-    "nameKey": "babydragon2",
+    "nameKey": "baby-dragon",
+    "description": "Cute, snuggly and prone to fire-spitting tantrums. Rampant destruction has never been so adorable.",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1063,7 +1091,8 @@
   },
   {
     "name": "Night Witch",
-    "nameKey": "dark-witch",
+    "nameKey": "night-witch",
+    "description": "Fearlessly summons flocks of flying creatures and, unlike her sister, leaves the grass in pristine condition.",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1102,7 +1131,8 @@
   },
   {
     "name": "Wall Wrecker",
-    "nameKey": "siege-machine-ram",
+    "nameKey": "wall-wrecker",
+    "description": "The Wall Wrecker exists for two simple purposes: smash through anything that it comes across and deliver the Clan Castle troops straight to the heart of the village. Built from heavy duty materials, it can take a pummeling before breaking down. Immune to spell effects.",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1139,7 +1169,8 @@
   },
   {
     "name": "Battle Blimp",
-    "nameKey": "siege-machine-flyer",
+    "nameKey": "battle-blimp",
+    "description": "The Battle Blimp bypasses ground-based obstacles and delivers your Clan Castle troops directly into the heart of the enemy village, all while dropping bombs along the way. However, its thin hide makes it easier to shoot down. Immune to spell effects.",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1177,6 +1208,7 @@
   {
     "name": "Yeti",
     "nameKey": "yeti",
+    "description": "This heavy-hitting furry fellow digs cold weather and his Yetimite buddies. Hurt him, and you'll make the Yetimites real angry.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1214,6 +1246,7 @@
   {
     "name": "Ice Golem",
     "nameKey": "ice-golem",
+    "description": "The Ice Golem has a chilling personality and absolutely zero sense of humour. He frosts over everything he touches, freezes his surroundings when destroyed and ices up when talked to at a party. On defense his freeze effect is smaller and has a shorter duration.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1251,6 +1284,7 @@
   {
     "name": "Electro Dragon",
     "nameKey": "electro-dragon",
+    "description": "Possessing iron-tough scales and a breath of devastating lightning, the Electro Dragon's favorite thing is raining destruction from above. When vanquished, the Electro Dragon even pummels the ground with lightning strikes!",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1287,7 +1321,8 @@
   },
   {
     "name": "Stone Slammer",
-    "nameKey": "siege-bowler-balloon",
+    "nameKey": "stone-slammer",
+    "description": "The Stone Slammer is a heavy-duty, flying mountain that targets defensive buildings by flattening them with giant boulders and causes earthquakes. Immune to spell effects.",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1325,6 +1360,7 @@
   {
     "name": "Hog Glider",
     "nameKey": "hog-glider",
+    "description": "The real riders in the sky. They have a great track record in getting over walls, but are not very good at avoiding crashes.",
     "village": "builderBase",
     "category": "troop",
     "subCategory": "troop",
@@ -1363,7 +1399,8 @@
   },
   {
     "name": "Siege Barracks",
-    "nameKey": "siege-machine-carrier",
+    "nameKey": "siege-barracks",
+    "description": "The Siege Barracks parachutes down gracefully to first release a menagerie of P.E.K.K.As and Wizards and then the Clan Castle troops. How they all managed to squeeze inside is a mystery not really worth investigating.",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1401,6 +1438,7 @@
   {
     "name": "Headhunter",
     "nameKey": "headhunter",
+    "description": "Headhunter has just one job: taking out enemy heroes. As her other job, she works at the village apothecary. She's lightweight enough to jump over walls and her poisoned weapons make her targets move and attack slower.",
     "village": "home",
     "category": "troop",
     "subCategory": "troop",
@@ -1437,7 +1475,8 @@
   },
   {
     "name": "Log Launcher",
-    "nameKey": "siege-log-launcher",
+    "nameKey": "log-launcher",
+    "description": "While Log Launcher certainly isn't the fastest or the sturdiest, it is definitely among the meanest. This trunk-throwing contraption pummels everything in front of it with endless logs to open up a path to the enemy Town Hall. Immune to spell effects.",
     "village": "home",
     "category": "troop",
     "subCategory": "siege",
@@ -1474,7 +1513,8 @@
   },
   {
     "name": "Lightning Spell",
-    "nameKey": "lighningstorm",
+    "nameKey": "lightning-spell",
+    "description": "Electrocute your enemies with a bolt of lightning!\\n\\nCast this spell at the enemy village to damage and stun buildings and units inside a small area.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1513,7 +1553,8 @@
   },
   {
     "name": "Healing Spell",
-    "nameKey": "healingwave",
+    "nameKey": "healing-spell",
+    "description": "Heal your troops to keep them in the fight!\\n\\nCast this spell to create a Ring of Healing. Your units will be healed while they are inside this ring.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1561,7 +1602,8 @@
   },
   {
     "name": "Rage Spell",
-    "nameKey": "haste",
+    "nameKey": "rage-spell",
+    "description": "Enrage your units to make them bigger, faster and stronger!\\n\\nCast this to create a Ring of Rage! Your units will gain speed and attack power while they are inside this ring.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1600,7 +1642,8 @@
   },
   {
     "name": "Jump Spell",
-    "nameKey": "jump",
+    "nameKey": "jump-spell",
+    "description": "Walls slowing you down? Try making a shortcut!\\n\\nCast this spell near enemy walls to create a route straight over them. Your troops will jump over affected wall pieces as if they weren't even there!",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1639,7 +1682,8 @@
   },
   {
     "name": "Freeze Spell",
-    "nameKey": "freeze",
+    "nameKey": "freeze-spell",
+    "description": "When the going gets hot, stay frosty!\\n\\nThe Freeze Spell sends out a cryogenic blast that temporarily immobilizes enemy troops and disables defensive buildings within its radius.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1678,7 +1722,8 @@
   },
   {
     "name": "Poison Spell",
-    "nameKey": "poison",
+    "nameKey": "poison-spell",
+    "description": "Give your army the upper hand against enemy troops with this deadly poison!\\n\\nDefending units that linger in a Poison Spell's toxic cloud will move slower, attack slower and take damage with increasing severity over time. Poison Spells do not affect structures.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1719,7 +1764,8 @@
   },
   {
     "name": "Earthquake Spell",
-    "nameKey": "earthquake",
+    "nameKey": "earthquake-spell",
+    "description": "Weaken walls and buildings with crippling earthquakes!\\n\\nEarthquake Spells damage structures based on their maximum hitpoints. Repeated earthquakes deal decreasing damage to the same buildings, but increasing damage to the same Walls. No wall can withstand the might of four Earthquake Spells!",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1758,7 +1804,8 @@
   },
   {
     "name": "Haste Spell",
-    "nameKey": "speedup",
+    "nameKey": "haste-spell",
+    "description": "Put some hustle in even your heaviest units!\\n\\nHaste Spells lack the damage boost of Rage Spells, but provide an even better boost to movement speed. A lower storage space also allows you to take more of them into battle!",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1797,7 +1844,8 @@
   },
   {
     "name": "Clone Spell",
-    "nameKey": "duplicate",
+    "nameKey": "clone-spell",
+    "description": "Turn this Spell into a pop-up army!\\n\\nClone Spells create a circle of spawning that creates limited-lifetime copies of troops that enter it. It will only spawn up to a maximum housing space of troops.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1836,7 +1884,8 @@
   },
   {
     "name": "Skeleton Spell",
-    "nameKey": "spawnskele",
+    "nameKey": "skeleton-spell",
+    "description": "Summon an army of Skeletons anywhere on the battlefield!\\n\\nPut a few extra swords when and where you need them most. Skeletons do not trigger traps.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1875,7 +1924,8 @@
   },
   {
     "name": "Bat Spell",
-    "nameKey": "spawnbats",
+    "nameKey": "bat-spell",
+    "description": "Summon an army of Bats anywhere on the battlefield!\\n\\nDeploy aerial reinforcements wherever you need them the most. Bats do not trigger traps.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1914,7 +1964,8 @@
   },
   {
     "name": "Invisibility Spell",
-    "nameKey": "invisibility",
+    "nameKey": "invisibility-spell",
+    "description": "Invisibility Spell makes EVERYTHING except for Walls and Siege Machines invisible and untargetable within its radius.",
     "village": "home",
     "category": "spell",
     "subCategory": "spell",
@@ -1954,6 +2005,7 @@
   {
     "name": "Barbarian King",
     "nameKey": "barbarian-king",
+    "description": "This colossal menace soaks up huge amounts of damage and bashes anything in his path. He guards his territory fiercely when defending, and can launch into a devastating rage when attacking once his Iron Fist ability is unlocked!",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2074,6 +2126,7 @@
   {
     "name": "Archer Queen",
     "nameKey": "archer-queen",
+    "description": "This graceful huntress is a master of destructive force, though modest in health. She snipes targets in her territory when defending, and can summon stealth and terrifying damage when attacking once her Royal Cloak ability is unlocked!",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2194,6 +2247,7 @@
   {
     "name": "Grand Warden",
     "nameKey": "grand-warden",
+    "description": "The warden follows groups of friendly troops and boosts them with his Life Aura. Attacking he can walk over walls or fly high. On defense he turns into a tower. Unlock his Eternal Tome ability to make nearby troops immune to damage!",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2288,7 +2342,8 @@
   },
   {
     "name": "Battle Machine",
-    "nameKey": "warmachine",
+    "nameKey": "battle-machine",
+    "description": "The Master Builder's prize invention smashes enemy buildings to bits. What better way is there to show who's the best builder around? Unlock the Electric Hammer ability to give opponents a real pounding!",
     "village": "builderBase",
     "category": "hero",
     "subCategory": "hero",
@@ -2358,7 +2413,8 @@
   },
   {
     "name": "Royal Champion",
-    "nameKey": "warrior-princess",
+    "nameKey": "royal-champion",
+    "description": "Over the wall and at them! The Royal Champion is only afraid of four things, and the enemy isn't one of them. She attacks with her spear at short range and throws her shield to take down defenses once her Seeking Shield ability is unlocked!",
     "village": "home",
     "category": "hero",
     "subCategory": "hero",
@@ -2428,7 +2484,8 @@
   },
   {
     "name": "L.A.S.S.I",
-    "nameKey": "barky",
+    "nameKey": "l.a.s.s.i",
+    "description": "The trustiest hound to ever roam the village proper, L.A.S.S.I chases enemies with unrelenting fury. Unless they fly, in which case she just observes them intently.",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2465,7 +2522,8 @@
   },
   {
     "name": "Mighty Yak",
-    "nameKey": "bulldozer",
+    "nameKey": "mighty-yak",
+    "description": "Built like a Siege Machine, the Mighty Yak has a knack for knocking down any walls it comes in contact with. It also flies into a rage if you knock out its companion.",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2502,7 +2560,8 @@
   },
   {
     "name": "Electro Owl",
-    "nameKey": "electrowl",
+    "nameKey": "electro-owl",
+    "description": "Electro Owl zaps enemy defenses into dust from great distance. He's mostly made of feathers though, so better keep him well protected!",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
@@ -2539,7 +2598,8 @@
   },
   {
     "name": "Unicorn",
-    "nameKey": "unipony",
+    "nameKey": "unicorn",
+    "description": "Unicorns have severe trust issues, but overcoming them with love and patience is totally worth it. They'll heal up any minor or major scrapes as well as any Healer!",
     "village": "home",
     "category": "troop",
     "subCategory": "pet",
