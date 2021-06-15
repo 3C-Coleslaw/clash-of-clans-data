@@ -23,6 +23,7 @@ function parseSuperTroops() {
 		output.push({
 			name: getTextValue(superTID),
 			nameKey: nameKey,
+			type: 'Super Troop',
 			original: getTextValue(troopOriginal.TID),
 			minOriginalLevel: troop.MinOriginalLevel + 1,
 			village: troop.VillageType === 1
